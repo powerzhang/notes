@@ -1,0 +1,7 @@
+Executable : D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\AndroidStudioProjects\native_add\android\.cxx\cmake\debug\armeabi-v7a
+native_add
+jvmArgs : 
+

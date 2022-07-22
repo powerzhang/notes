@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Sdk/platforms/android-31/data/res/layout/auto_complete_list.xml" value="0.14583333333333334" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.10144927536231885" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/commentkeyboard/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/commentkeyboard/src/main/res/layout/comment_keyboard.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/commentkeyboard2/src/main/res/layout/activity_main.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/commentkeyboard2/src/main/res/layout/comment_keyboard.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard/src/main/res/drawable/btn_keyboard_abc_key.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard/src/main/res/drawable/btn_keyboard_key2.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard/src/main/res/drawable/btn_keyboard_key_change.xml" value="0.14074074074074075" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard/src/main/res/layout/activity_first.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard/src/main/res/layout/activity_main.xml" value="0.14855072463768115" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard/src/main/res/layout/activity_second.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard/src/main/res/layout/input.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard/src/main/res/layout/keyboardd_preview.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard2/src/main/res/layout/activity.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard2/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard2/src/main/res/layout/comment_keyboard.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/keyboard2/src/main/res/layout/popupwindow.xml" value="0.14583333333333334" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/recyclerviewdemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/recyclerviewdemo/src/main/res/layout/activity_main2.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/recyclerviewdemo/src/main/res/layout/item_layout.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication2/recyclerviewdemo/src/main/res/layout/layout_rv_card.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

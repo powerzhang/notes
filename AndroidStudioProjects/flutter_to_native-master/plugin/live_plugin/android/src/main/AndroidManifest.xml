@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.llayjun.live_plugin">
+
+    <application android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
