@@ -119,16 +119,16 @@ class _GoodListPageState extends State<GoodListPage> {
   Widget build(BuildContext context) {
 
     //通过商品列表数组长度判断是否有数据
-    if(goodsList.data.length > 0){
+    if(goodsList.data!.length > 0){
       return ListView.builder(
           //滚动控制器
           controller: scrollController,
           //列表长度
-          itemCount: goodsList.data.length,
+          itemCount: goodsList.data!.length,
           //列表项构造器
           itemBuilder: (context, index) {
             //列表项 传入列表数据及索引
-            return _ListWidget(goodsList.data, index);
+            return _ListWidget(goodsList.data!, index);
           },
         );
     }

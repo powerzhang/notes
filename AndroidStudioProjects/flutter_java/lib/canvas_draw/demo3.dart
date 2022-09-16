@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import "package:flutter/material.dart";
-import 'package:flutter_java/demo/demo.dart';
+import 'package:flutter_java/canvas_draw/demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -65,7 +65,7 @@ class _MyApp extends State {
                 Expanded(
                   flex: 1,
                   child: Container(
-                    height: 30.0,
+                    height: 100.0,
                     color: Colors.green,
                     child: GestureDetector(
                       onTap: () {
@@ -232,31 +232,31 @@ class EllipseGraphic extends BaseGraphicPainter with EllipseGraphicData{
     Offset? second =ellipseGraphicData!.second;
     Offset? third =ellipseGraphicData!.third;
     if (second != null) {
-      canvas.drawLine(first!, second!, mPaint);
-      double longAxisLength = getLength(first!, second!);
-      double angle = getAngle(first!, second!);
+      canvas.drawLine(first!, second, mPaint);
+      double longAxisLength = getLength(first, second);
+      double angle = getAngle(first, second);
       double aa = angle * 180 / pi;
       print("EllipsePainter third $third ");
       double short_axis = longAxisLength;
       if (third != null) {
-        double angle_02 = getAngle(first!, third!);
-        double length_02 = getLength(first!, third!);
+        double angle_02 = getAngle(first, third);
+        double length_02 = getLength(first, third);
         double angle_temp = angle_02 - angle;
 
         short_axis = (sin(angle_temp) * length_02 * 2 + longAxisLength).abs();
       }
 
-      double left = first!.dx;
-      double top = first!.dy - short_axis / 2;
-      double right = first!.dx + longAxisLength;
-      double bottom = first!.dy + short_axis / 2;
+      double left = first.dx;
+      double top = first.dy - short_axis / 2;
+      double right = first.dx + longAxisLength;
+      double bottom = first.dy + short_axis / 2;
       print(
           "EllipsePainter left: $left ,top: $top, right: $right ,bottom: $bottom");
 
       Rect rect = Rect.fromLTRB(left, top, right, bottom);
-      canvas.translate(first!.dx, first!.dy);
+      canvas.translate(first.dx, first.dy);
       canvas.rotate(angle);
-      canvas.translate(-first!.dx, -first!.dy);
+      canvas.translate(-first.dx, -first.dy);
 
       canvas.drawOval(rect, mPaint);
     }
